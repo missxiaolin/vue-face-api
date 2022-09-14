@@ -11,6 +11,11 @@ export default [
     name: "脸标志检测",
     component: () => import("@/views/FaceLandmarkDetection.vue"),
   },
+  {
+    path: "/face_expression_recognition",
+    name: "人脸表情识别",
+    component: () => import("@/views/FaceExpressionRecognition.vue"),
+  },
 //   {
 //     path: "/about",
 //     name: "about",
