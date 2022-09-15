@@ -31,6 +31,20 @@ export default [
     name: "人脸识别",
     component: () => import("@/views/FaceRecognition.vue"),
   },
+  {
+    path: "/face_recognition_more",
+    name: "人脸识别多图处理",
+    component: () => import("@/views/FaceRecognitionMore.vue"),
+  },
+  {
+    path: "*",
+    name: "anyException",
+    meta: {
+      icon: "none",
+      title: "任意异常",
+    },
+    component: HomeView,
+  },
 //   {
 //     path: "/about",
 //     name: "about",
