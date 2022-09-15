@@ -26,6 +26,11 @@ export default [
     name: "人脸提取",
     component: () => import("@/views/FaceExtraction.vue"),
   },
+  {
+    path: "/face_recognition",
+    name: "人脸识别",
+    component: () => import("@/views/FaceRecognition.vue"),
+  },
 //   {
 //     path: "/about",
 //     name: "about",
