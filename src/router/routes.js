@@ -21,6 +21,11 @@ export default [
     name: "年龄和性别识别",
     component: () => import("@/views/AgeAndGenderRecognition.vue"),
   },
+  {
+    path: "/face_extraction",
+    name: "人脸提取",
+    component: () => import("@/views/FaceExtraction.vue"),
+  },
 //   {
 //     path: "/about",
 //     name: "about",
