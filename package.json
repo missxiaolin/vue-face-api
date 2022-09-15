@@ -9,12 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "register-service-worker": "^1.7.2",
     "face-api.js": "^0.22.2",
-    "webrtc-adapter": "^7.6.1",
+    "fs": "^0.0.1-security",
+    "register-service-worker": "^1.7.2",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "webrtc-adapter": "^7.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

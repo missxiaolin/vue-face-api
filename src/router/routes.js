@@ -16,6 +16,11 @@ export default [
     name: "人脸表情识别",
     component: () => import("@/views/FaceExpressionRecognition.vue"),
   },
+  {
+    path: "/age_gender_recognition",
+    name: "年龄和性别识别",
+    component: () => import("@/views/AgeAndGenderRecognition.vue"),
+  },
 //   {
 //     path: "/about",
 //     name: "about",
