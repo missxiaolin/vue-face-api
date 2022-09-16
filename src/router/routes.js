@@ -52,6 +52,11 @@ export default [
     component: () => import("@/views/BBTFaceRecognition.vue"),
   },
   {
+    path: "/video_face_detector",
+    name: "Video人脸跟踪",
+    component: () => import("@/views/VideoFaceDetector.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
