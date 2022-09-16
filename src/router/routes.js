@@ -42,6 +42,11 @@ export default [
     component: () => import("@/views/BBTFaceSimilarity.vue"),
   },
   {
+    path: "/bbt_face_similarity_more",
+    name: "BBT图片相似度多查找",
+    component: () => import("@/views/BBTFaceSimilarityMore.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
