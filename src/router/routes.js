@@ -47,6 +47,11 @@ export default [
     component: () => import("@/views/BBTFaceSimilarityMore.vue"),
   },
   {
+    path: "/bbt_face_recognition",
+    name: "BBT人脸识别",
+    component: () => import("@/views/BBTFaceRecognition.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
