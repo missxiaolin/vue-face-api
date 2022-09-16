@@ -57,6 +57,11 @@ export default [
     component: () => import("@/views/VideoFaceDetector.vue"),
   },
   {
+    path: "/video_face_recognition",
+    name: "Video人脸识别",
+    component: () => import("@/views/VideoFaceRecognition.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
