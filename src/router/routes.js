@@ -67,6 +67,11 @@ export default [
     component: () => import("@/views/WebRTCFaceDetector.vue"),
   },
   {
+    path: "/webrtc_face_recognition",
+    name: "WebRTC人脸识别",
+    component: () => import("@/views/WebRTCFaceRecognition.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
