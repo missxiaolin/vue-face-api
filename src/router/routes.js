@@ -72,6 +72,11 @@ export default [
     component: () => import("@/views/WebRTCFaceRecognition.vue"),
   },
   {
+    path: "/webrtc_media_stream",
+    name: "WebRTC媒体流基础",
+    component: () => import("@/views/WebRTCMediaStream.vue"),
+  },
+  {
     path: "*",
     name: "anyException",
     meta: {
